@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#home">My Portfolio</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Hello, I am</p>
+          <h1>Jordan Smith</h1>
+          <p class="hero-text">A web designer and front-end developer who builds accessible, responsive websites that look great on any device.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Work</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-frame">JS</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div>
+          <h2>About Me</h2>
+          <p>I create polished websites with clean HTML, modern CSS, and thoughtful interactions. I enjoy solving design problems, building landing pages, and delivering projects that feel fast, intuitive, and professional.</p>
+          <p>My toolkit includes HTML5, CSS3, JavaScript, responsive layouts, and performance-minded code. I focus on clarity, usability, and a strong visual hierarchy.</p>
+        </div>
+        <div class="stats-card">
+          <div>
+            <h3>5+</h3>
+            <p>Years experience</p>
+          </div>
+          <div>
+            <h3>12</h3>
+            <p>Projects completed</p>
+          </div>
+          <div>
+            <h3>100%</h3>
+            <p>Responsive design</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Creative Landing Page</h3>
+            <p>A fast, mobile-first landing page with clear conversion flow and refined visuals.</p>
+            <span>HTML • CSS • JavaScript</span>
+          </article>
+          <article class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A modern portfolio template built for creative professionals and freelancers.</p>
+            <span>Responsive Design • Accessibility</span>
+          </article>
+          <article class="project-card">
+            <h3>Dashboard Interface</h3>
+            <p>An interactive analytics dashboard with chart placeholders and clean layouts.</p>
+            <span>UI Design • CSS Grid</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>Interested in working together? Send a message and I’ll get back to you soon.</p>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Message
+            <textarea rows="5" placeholder="Tell me about your project"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Jordan Smith. Built with HTML, CSS, and JavaScript.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
